@@ -230,6 +230,16 @@ padding:0;
   margin-right:15px;}
   .testimonial-col  {width: 100%;}
 }
+@media (max-width:520px){
+  .testimonial-col .test-img {padding-top:-40px;}
+  .testimonial-col p {position: relative;
+  top:30px;
+left:-30px;}
+.testimonial-col .star img {position: relative;
+right: 30px;}
+.testimonial-col h3 {position: relative;
+right: 20px;}
+}
 
 /* --------call to action--- */
 .cta {margin:100px auto;
@@ -270,7 +280,7 @@ position: relative;
     /* ------------footer----------- */
     .footer {width: 100%;
     text-align: center;
-  padding:30px 0;}
+  margin-top:-40px;}
 
   .footer h4 {margin-bottom: 25px;
   margin-top: 25px;
