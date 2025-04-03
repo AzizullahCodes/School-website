@@ -300,3 +300,16 @@ font-size: 16px;}
 @media(max-width:600px){.footer p {
 padding-left: 30px;
 padding-right: 30px;}}
+
+/* ------------about us page------------- */
+.sub-header {height: 50vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+url(./assets/eduford_img/background.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+text-align: center;}
+
+.sub-header h1 {position: relative;
+top:100px;}
